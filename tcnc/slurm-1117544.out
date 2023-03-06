@@ -1,0 +1,221 @@
+
+Lmod va a reemplazar "openmpi3/3.1.4" con "openmpi/4.1.4" automáticamente
+
+
+Lmod va a reemplazar "gnu8/8.3.0" con "gnu10/10.1" automáticamente
+
+[cn-028:131549] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131549] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131549] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131549] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131541] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131541] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131541] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131541] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131547] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131547] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131547] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131547] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131550] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131550] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131550] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131550] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131546] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131546] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131546] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131546] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131539] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131539] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131538] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131539] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131539] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131538] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131538] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131538] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131548] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131548] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131548] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131548] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131552] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131552] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131551] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131552] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131552] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131551] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131551] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131551] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131540] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131540] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131540] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131540] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131545] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131545] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131545] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131545] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131544] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131544] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131543] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131544] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131544] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131543] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131543] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131543] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131542] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131542] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131542] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131542] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131553] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131553] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-028:131553] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-028:131553] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (-0.75694412 0.38127473 0.17900842) to (44.165558 47.066074 44.193867)
+  2 by 4 by 2 MPI processor grid
+  reading atoms ...
+  8640 atoms
+  scanning bonds ...
+  2 = max bonds/atom
+  scanning angles ...
+  1 = max angles/atom
+  reading bonds ...
+  5760 bonds
+  reading angles ...
+  2880 angles
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        0        0       
+  special bond factors coul:  0        0        0       
+     2 = max # of 1-2 neighbors
+     1 = max # of 1-3 neighbors
+     1 = max # of 1-4 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.001 seconds
+  read_data CPU = 0.056 seconds
+2880 atoms in group ox
+5760 atoms in group hy
+Setting atom values ...
+  2880 settings made for charge
+Setting atom values ...
+  5760 settings made for charge
+Finding SHAKE clusters ...
+       0 = # of size 2 clusters
+       0 = # of size 3 clusters
+       0 = # of size 4 clusters
+    2880 = # of frozen angles
+  find clusters CPU = 0.000 seconds
+PPPM initialization ...
+  using 12-bit tables for long-range coulomb (src/kspace.cpp:342)
+  G vector (1/distance) = 0.30304516
+  grid = 40 40 36
+  stencil order = 5
+  estimated absolute RMS force accuracy = 0.0032132866
+  estimated relative force accuracy = 9.6767173e-06
+  using double precision FFTW3
+  3d grid and FFT values/proc = 11475 4800
+Generated 0 of 1 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 10 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 12
+  ghost atom cutoff = 12
+  binsize = 6, bins = 8 8 8
+  2 neighbor lists, perpetual/occasional/extra = 1 1 0
+  (1) pair lj/cut/coul/long, perpetual
+      attributes: half, newton on
+      pair build: half/bin/newton
+      stencil: half/bin/3d
+      bin: standard
+  (2) compute rdf, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+Setting up Verlet run ...
+  Unit style    : real
+  Current step  : 0
+  Time step     : 0.005
+Per MPI rank memory allocation (min/avg/max) = 10.47 | 10.5 | 10.58 Mbytes
+   Step          Temp          Press          Volume    
+         0   1             -17252.476      92307.873    
+       100   0.72543945    -8954.6926      92283.307    
+       200   0.89966896    -8911.7391      92210.231    
+       300   1.1840089     -8860.2231      92089.256    
+       400   1.5667429     -8822.4538      91921.786    
+       500   2.0242275     -8825.5468      91710.564    
+       600   2.5174781     -8891.0573      91460.266    
+       700   2.9953259     -9028.0868      91177.895    
+       800   3.4056995     -9190.7532      90872.679    
+       900   3.7149422     -9349.0781      90555.267    
+      1000   3.9220975     -9417.6909      90236.116    
+      1100   4.0569784     -9331.5573      89923.751    
+      1200   4.1630544     -9089.2067      89623.525    
+      1300   4.2789541     -8724.8404      89337.295    
+      1400   4.4254402     -8295.2287      89064.135    
+      1500   4.6062891     -7856.6505      88801.619    
+      1600   4.8144054     -7443.5505      88547.012    
+      1700   5.0377753     -7067.7954      88298.087    
+      1800   5.2636845     -6728.747       88053.486    
+      1900   5.481169      -6423.9971      87812.733    
+      2000   5.6816168     -6136.0047      87576.071    
+      2100   5.8593701     -5863.8754      87344.236    
+      2200   6.011445      -5593.6745      87118.211    
+      2300   6.1369149     -5319.7156      86899.035    
+      2400   6.2364902     -5039.6271      86687.655    
+      2500   6.3117908     -4752.6609      86484.829    
+      2600   6.3647844     -4459.9353      86291.074    
+      2700   6.3974793     -4164.3649      86106.668    
+      2800   6.4117465     -3870.2189      85931.672    
+      2900   6.409235      -3581.051       85765.971    
+      3000   6.3914027     -3298.5343      85609.322    
+      3100   6.35962       -3023.5608      85461.4      
+      3200   6.3153384     -2758.3358      85321.848    
+      3300   6.2601708     -2503.7684      85190.292    
+      3400   6.1958853     -2259.2474      85066.37     
+      3500   6.1244411     -2025.4888      84949.739    
+      3600   6.047987      -1802.8717      84840.086    
+      3700   5.968804      -1590.8474      84737.123    
+      3800   5.8892526     -1388.7402      84640.59     
+      3900   5.8117358     -1196.6259      84550.255    
+      4000   5.7386377     -1014.4853      84465.909    
+      4100   5.6722557     -842.33805      84387.363    
+      4200   5.6147454     -680.25052      84314.443    
+      4300   5.5680671     -528.38353      84246.986    
+      4400   5.5339334     -386.56074      84184.838    
+      4500   5.5137558     -254.58096      84127.848    
+      4600   5.508608      -132.24         84075.873    
+      4700   5.5191961     -19.326811      84028.771    
+      4800   5.5458385      84.356739      83986.4      
+      4900   5.5884533      179.12865      83948.623    
+      5000   5.6465538      265.13542      83915.299    
+Loop time of 22.8791 on 16 procs for 5000 steps with 8640 atoms
+
+Performance: 0.094 ns/day, 254.212 hours/ns, 218.540 timesteps/s
+99.7% CPU use with 16 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 11.839     | 12.269     | 12.651     |   6.2 | 53.63
+Bond    | 0.00162    | 0.0021942  | 0.0027144  |   0.7 |  0.01
+Kspace  | 4.6541     | 4.9865     | 5.3857     |   9.0 | 21.80
+Neigh   | 0.0081154  | 0.0081332  | 0.0081587  |   0.0 |  0.04
+Comm    | 0.98924    | 1.8279     | 2.2775     |  34.2 |  7.99
+Output  | 0.0020692  | 0.012072   | 0.16146    |  35.1 |  0.05
+Modify  | 3.0215     | 3.6443     | 4.5607     |  26.6 | 15.93
+Other   |            | 0.1289     |            |       |  0.56
+
+Nlocal:            540 ave         540 max         540 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+Nghost:           6894 ave        6898 max        6890 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:         201551 ave      207627 max      196179 min
+Histogram: 4 0 0 2 3 3 0 0 1 3
+
+Total # of neighbors = 3224823
+Ave neighs/atom = 373.2434
+Ave special neighs/atom = 2
+Neighbor list builds = 2
+Dangerous builds = 0
+Total wall time: 0:00:22
