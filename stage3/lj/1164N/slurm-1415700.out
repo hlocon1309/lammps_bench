@@ -1,0 +1,118 @@
+
+Lmod va a reemplazar "openmpi3/3.1.4" con "openmpi/4.1.4" automáticamente
+
+
+Lmod va a reemplazar "gnu8/8.3.0" con "gnu10/10.1" automáticamente
+
+LAMMPS (23 Jun 2022 - Update 1)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 1.6795962 1.6795962 1.6795962
+Created orthogonal box = (0 0 0) to (33.591924 33.591924 67.183848)
+  2 by 2 by 4 MPI processor grid
+Created 64000 atoms
+  using lattice units in orthogonal box = (0 0 0) to (33.591924 33.591924 67.183848)
+  create_atoms CPU = 0.001 seconds
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+- GPU package (short-range, long-range and three-body potentials):
+The log file lists these citations in BibTeX format.
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+
+--------------------------------------------------------------------------
+- Using acceleration for lj/cut:
+-  with 4 proc(s) per device.
+-  Horizontal vector operations: ENABLED
+-  Shared memory system: No
+--------------------------------------------------------------------------
+Device 0: Tesla V100-SXM2-32GB, 80 CUs, 31/32 GB, 1.5 GHZ (Mixed Precision)
+Device 1: Tesla V100-SXM2-32GB, 80 CUs, 1.5 GHZ (Mixed Precision)
+Device 2: Tesla V100-SXM2-32GB, 80 CUs, 1.5 GHZ (Mixed Precision)
+Device 3: Tesla V100-SXM2-32GB, 80 CUs, 1.5 GHZ (Mixed Precision)
+--------------------------------------------------------------------------
+
+Initializing Device and compiling on process 0...Done.
+Initializing Devices 0-3 on core 0...Done.
+Initializing Devices 0-3 on core 1...Done.
+Initializing Devices 0-3 on core 2...Done.
+Initializing Devices 0-3 on core 3...Done.
+
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.005
+Per MPI rank memory allocation (min/avg/max) = 2.831 | 2.86 | 2.883 Mbytes
+   Step          Time           Temp          Press          PotEng         KinEng         TotEng        Density    
+         0   0              1.44          -5.019688      -6.7733683      2.1599662     -4.6134021      0.8442       
+        50   0.25           0.74142926     0.32573899    -5.733523       1.1121265     -4.6213965      0.8442       
+       100   0.5            0.76014233     0.18655037    -5.762594       1.1401957     -4.6223984      0.8442       
+       150   0.75           0.76079056     0.17986712    -5.7637963      1.141168      -4.6226283      0.8442       
+       200   1              0.76072423     0.20298346    -5.7636544      1.1410685     -4.6225859      0.8442       
+       250   1.25           0.75487787     0.24859331    -5.7548406      1.1322991     -4.6225415      0.8442       
+       300   1.5            0.74897476     0.29798781    -5.7461213      1.1234446     -4.6226767      0.8442       
+       350   1.75           0.74289827     0.35427956    -5.7366636      1.11433       -4.6223336      0.8442       
+       400   2              0.7398058      0.38565068    -5.7319333      1.1096914     -4.622242       0.8442       
+       450   2.25           0.73509852     0.42691351    -5.7248385      1.1026305     -4.622208       0.8442       
+       500   2.5            0.73009631     0.46773435    -5.7169814      1.0951274     -4.621854       0.8442       
+       550   2.75           0.72557701     0.51093402    -5.7100542      1.0883485     -4.6217057      0.8442       
+       600   3              0.72398164     0.52615326    -5.707635       1.0859555     -4.6216795      0.8442       
+       650   3.25           0.72186594     0.55183124    -5.7043112      1.082782      -4.6215292      0.8442       
+       700   3.5            0.71587573     0.60051941    -5.6949151      1.0737968     -4.6211183      0.8442       
+       750   3.75           0.71129525     0.63917034    -5.6880455      1.0669262     -4.6211193      0.8442       
+       800   4              0.7108483      0.6532288     -5.6871389      1.0662558     -4.6208831      0.8442       
+       850   4.25           0.71036521     0.64363279    -5.6864256      1.0655312     -4.6208944      0.8442       
+       900   4.5            0.70756        0.67680986    -5.6820118      1.0613234     -4.6206883      0.8442       
+       950   4.75           0.70152595     0.71987689    -5.6728117      1.0522725     -4.6205392      0.8442       
+      1000   5              0.70406105     0.70209826    -5.6766088      1.0560751     -4.6205338      0.8442       
+Loop time of 0.814679 on 16 procs for 1000 steps with 64000 atoms
+
+Performance: 530269.924 tau/day, 1227.477 timesteps/s
+89.5% CPU use with 16 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.26836    | 0.33598    | 0.38712    |   6.2 | 41.24
+Neigh   | 0.0004241  | 0.00051989 | 0.00064364 |   0.0 |  0.06
+Comm    | 0.38841    | 0.43479    | 0.49978    |   5.2 | 53.37
+Output  | 0.0056628  | 0.0068328  | 0.0080329  |   1.0 |  0.84
+Modify  | 0.015293   | 0.01588    | 0.017883   |   0.5 |  1.95
+Other   |            | 0.02068    |            |       |  2.54
+
+Nlocal:           4000 ave        4042 max        3973 min
+Histogram: 2 2 3 1 4 1 0 0 2 1
+Nghost:        5512.06 ave        5558 max        5449 min
+Histogram: 1 0 0 3 2 0 4 4 0 2
+Neighs:              0 ave           0 max           0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 0
+Ave neighs/atom = 0
+Neighbor list builds = 50
+Dangerous builds = 50
+
+
+---------------------------------------------------------------------
+      Device Time Info (average): 
+---------------------------------------------------------------------
+Data Transfer:   0.1407 s.
+Neighbor copy:   0.0012 s.
+Neighbor build:  0.0174 s.
+Force calc:      0.1901 s.
+Device Overhead: 0.4287 s.
+Average split:   1.0000.
+Lanes / atom:    4.
+Vector width:    32.
+Max Mem / Proc:  3.63 MB.
+CPU Neighbor:    0.0158 s.
+CPU Cast/Pack:   0.0514 s.
+CPU Driver_Time: 0.0187 s.
+CPU Idle_Time:   0.2372 s.
+---------------------------------------------------------------------
+
+Total wall time: 0:00:05

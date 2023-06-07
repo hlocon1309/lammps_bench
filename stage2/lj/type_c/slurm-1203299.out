@@ -1,0 +1,127 @@
+
+Lmod va a reemplazar "openmpi3/3.1.4" con "openmpi/4.1.4" automáticamente
+
+
+Lmod va a reemplazar "gnu8/8.3.0" con "gnu10/10.1" automáticamente
+
+[cn-029:155243] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155243] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155243] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155243] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155247] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155247] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155247] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155247] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155249] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155249] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155249] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155249] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155242] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155242] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155242] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155242] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155250] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155250] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155250] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155250] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155251] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155251] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155251] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155251] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155252] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155252] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155252] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155252] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155238] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155238] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155238] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155238] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155240] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155240] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155240] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155240] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155241] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155241] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155241] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155241] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155245] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155245] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155245] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155245] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155248] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155248] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155239] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155239] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155246] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155246] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155246] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155246] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155248] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155248] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155237] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155237] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155237] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155237] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155239] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155239] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155244] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155244] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:155244] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:155244] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 1.6795962 1.6795962 1.6795962
+Created orthogonal box = (0 0 0) to (33.591924 33.591924 33.591924)
+  2 by 2 by 4 MPI processor grid
+Created 32000 atoms
+  using lattice units in orthogonal box = (0 0 0) to (33.591924 33.591924 33.591924)
+  create_atoms CPU = 0.001 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 5 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 2.8
+  ghost atom cutoff = 2.8
+  binsize = 1.4, bins = 24 24 24
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.005
+Per MPI rank memory allocation (min/avg/max) = 3.282 | 3.295 | 3.308 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   1.44          -6.7733681      0             -4.6134356     -5.0197073    
+       100   0.75745998    -5.7584998      0             -4.6223453      0.20729996   
+Loop time of 0.153486 on 16 procs for 100 steps with 32000 atoms
+
+Performance: 281458.264 tau/day, 651.524 timesteps/s
+99.4% CPU use with 16 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.090269   | 0.09233    | 0.094091   |   0.4 | 60.16
+Neigh   | 0.031322   | 0.031613   | 0.032579   |   0.2 | 20.60
+Comm    | 0.02211    | 0.024113   | 0.027074   |   0.9 | 15.71
+Output  | 7.2307e-05 | 7.7551e-05 | 8.3312e-05 |   0.0 |  0.05
+Modify  | 0.0015502  | 0.0016703  | 0.0025609  |   0.6 |  1.09
+Other   |            | 0.003682   |            |       |  2.40
+
+Nlocal:           2000 ave        2040 max        1971 min
+Histogram: 3 0 2 2 4 2 1 0 0 2
+Nghost:        4135.69 ave        4172 max        4100 min
+Histogram: 2 0 1 4 2 1 2 1 2 1
+Neighs:        75198.5 ave       78008 max       73317 min
+Histogram: 3 4 0 1 2 2 2 0 1 1
+
+Total # of neighbors = 1203176
+Ave neighs/atom = 37.59925
+Neighbor list builds = 11
+Dangerous builds = 0
+Total wall time: 0:00:00

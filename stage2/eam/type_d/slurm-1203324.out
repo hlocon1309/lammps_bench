@@ -1,0 +1,66 @@
+
+Lmod va a reemplazar "openmpi3/3.1.4" con "openmpi/4.1.4" automáticamente
+
+
+Lmod va a reemplazar "gnu8/8.3.0" con "gnu10/10.1" automáticamente
+
+[cn-040:217199] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-040:217199] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-040:217199] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-040:217199] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 3.615 3.615 3.615
+Created orthogonal box = (0 0 0) to (72.3 72.3 72.3)
+  1 by 1 by 1 MPI processor grid
+Created 32000 atoms
+  using lattice units in orthogonal box = (0 0 0) to (72.3 72.3 72.3)
+  create_atoms CPU = 0.003 seconds
+Neighbor list info ...
+  update: every = 1 steps, delay = 5 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 5.95
+  ghost atom cutoff = 5.95
+  binsize = 2.975, bins = 25 25 25
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair eam, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.005
+Per MPI rank memory allocation (min/avg/max) = 16.83 | 16.83 | 16.83 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   1600          -113280         0             -106662.09      18703.573    
+       100   801.832       -109957.3       0             -106640.77      51322.821    
+Loop time of 4.02131 on 1 procs for 100 steps with 32000 atoms
+
+Performance: 10.743 ns/day, 2.234 hours/ns, 24.868 timesteps/s
+99.6% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 3.4613     | 3.4613     | 3.4613     |   0.0 | 86.07
+Neigh   | 0.48316    | 0.48316    | 0.48316    |   0.0 | 12.02
+Comm    | 0.026532   | 0.026532   | 0.026532   |   0.0 |  0.66
+Output  | 0.00013791 | 0.00013791 | 0.00013791 |   0.0 |  0.00
+Modify  | 0.035003   | 0.035003   | 0.035003   |   0.0 |  0.87
+Other   |            | 0.01519    |            |       |  0.38
+
+Nlocal:          32000 ave       32000 max       32000 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:          19909 ave       19909 max       19909 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    1.20778e+06 ave 1.20778e+06 max 1.20778e+06 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 1207784
+Ave neighs/atom = 37.74325
+Neighbor list builds = 13
+Dangerous builds = 0
+Total wall time: 0:00:04

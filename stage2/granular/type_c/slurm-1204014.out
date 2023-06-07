@@ -1,0 +1,75 @@
+
+Lmod va a reemplazar "openmpi3/3.1.4" con "openmpi/4.1.4" automáticamente
+
+
+Lmod va a reemplazar "gnu8/8.3.0" con "gnu10/10.1" automáticamente
+
+[cn-029:193699] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:193699] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:193699] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:193699] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:193698] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:193698] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-029:193698] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-029:193698] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (0 0 0) to (40 20 37.2886)
+  2 by 1 by 1 MPI processor grid
+  reading atoms ...
+  32000 atoms
+  reading velocities ...
+  32000 velocities
+  read_data CPU = 0.127 seconds
+912 atoms in group bottom
+31088 atoms in group active
+Generated 0 of 1 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 5 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 1.1
+  ghost atom cutoff = 1.1
+  binsize = 0.55, bins = 73 37 68
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair gran/hooke/history, perpetual
+      attributes: half, newton off, size, history
+      pair build: half/size/bin/newtoff
+      stencil: full/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.0001
+Per MPI rank memory allocation (min/avg/max) = 15.35 | 15.35 | 15.35 Mbytes
+   Step        Atoms        KinEng          c_1           Volume    
+         0       32000   784139.13      1601.1263      29833.783    
+       100       32000   784292.08      1571.0968      29834.707    
+Loop time of 0.201248 on 2 procs for 100 steps with 32000 atoms
+
+Performance: 4293.206 tau/day, 496.899 timesteps/s
+99.6% CPU use with 2 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.11392    | 0.11396    | 0.11401    |   0.0 | 56.63
+Neigh   | 0.025955   | 0.025977   | 0.025999   |   0.0 | 12.91
+Comm    | 0.013619   | 0.013638   | 0.013656   |   0.0 |  6.78
+Output  | 0.00012259 | 0.00012476 | 0.00012693 |   0.0 |  0.06
+Modify  | 0.037871   | 0.038114   | 0.038358   |   0.1 | 18.94
+Other   |            | 0.009433   |            |       |  4.69
+
+Nlocal:          16000 ave       16000 max       16000 min
+Histogram: 2 0 0 0 0 0 0 0 0 0
+Nghost:           3704 ave        3704 max        3704 min
+Histogram: 2 0 0 0 0 0 0 0 0 0
+Neighs:          58257 ave       58257 max       58257 min
+Histogram: 2 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 116514
+Ave neighs/atom = 3.6410625
+Neighbor list builds = 2
+Dangerous builds = 0
+Total wall time: 0:00:00

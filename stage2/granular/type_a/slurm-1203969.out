@@ -1,0 +1,71 @@
+
+Lmod va a reemplazar "openmpi3/3.1.4" con "openmpi/4.1.4" automáticamente
+
+
+Lmod va a reemplazar "gnu8/8.3.0" con "gnu10/10.1" automáticamente
+
+[cn-016:30147] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-016:30147] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-016:30147] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-016:30147] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (0 0 0) to (40 20 37.2886)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  32000 atoms
+  reading velocities ...
+  32000 velocities
+  read_data CPU = 0.149 seconds
+912 atoms in group bottom
+31088 atoms in group active
+Generated 0 of 1 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 5 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 1.1
+  ghost atom cutoff = 1.1
+  binsize = 0.55, bins = 73 37 68
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair gran/hooke/history, perpetual
+      attributes: half, newton off, size, history
+      pair build: half/size/bin/newtoff
+      stencil: full/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.0001
+Per MPI rank memory allocation (min/avg/max) = 23.37 | 23.37 | 23.37 Mbytes
+   Step        Atoms        KinEng          c_1           Volume    
+         0       32000   784139.13      1601.1263      29833.783    
+       100       32000   784292.08      1571.0968      29834.707    
+Loop time of 0.439806 on 1 procs for 100 steps with 32000 atoms
+
+Performance: 1964.502 tau/day, 227.373 timesteps/s
+98.9% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.25632    | 0.25632    | 0.25632    |   0.0 | 58.28
+Neigh   | 0.058255   | 0.058255   | 0.058255   |   0.0 | 13.25
+Comm    | 0.016613   | 0.016613   | 0.016613   |   0.0 |  3.78
+Output  | 0.00024826 | 0.00024826 | 0.00024826 |   0.0 |  0.06
+Modify  | 0.088298   | 0.088298   | 0.088298   |   0.0 | 20.08
+Other   |            | 0.02007    |            |       |  4.56
+
+Nlocal:          32000 ave       32000 max       32000 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:           5463 ave        5463 max        5463 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:         115133 ave      115133 max      115133 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 115133
+Ave neighs/atom = 3.5979062
+Neighbor list builds = 2
+Dangerous builds = 0
+Total wall time: 0:00:00

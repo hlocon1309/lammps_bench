@@ -1,0 +1,78 @@
+
+Lmod va a reemplazar "openmpi3/3.1.4" con "openmpi/4.1.4" automáticamente
+
+
+Lmod va a reemplazar "gnu8/8.3.0" con "gnu10/10.1" automáticamente
+
+[cn-036:181956] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-036:181956] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-036:181956] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-036:181956] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-036:181958] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-036:181958] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-036:181958] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-036:181958] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-036:181955] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-036:181955] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-036:181955] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-036:181955] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-036:181957] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-036:181957] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+[cn-036:181957] PMIX ERROR: BAD-PARAM in file base/bfrop_base_unpack.c at line 692
+[cn-036:181957] PMIX ERROR: BAD-PARAM in file dstore_base.c at line 2225
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 3.615 3.615 3.615
+Created orthogonal box = (0 0 0) to (72.3 72.3 72.3)
+  1 by 2 by 2 MPI processor grid
+Created 32000 atoms
+  using lattice units in orthogonal box = (0 0 0) to (72.3 72.3 72.3)
+  create_atoms CPU = 0.001 seconds
+Neighbor list info ...
+  update: every = 1 steps, delay = 5 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 5.95
+  ghost atom cutoff = 5.95
+  binsize = 2.975, bins = 25 25 25
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair eam, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.005
+Per MPI rank memory allocation (min/avg/max) = 7.382 | 7.382 | 7.382 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   1600          -113280         0             -106662.09      18703.573    
+       100   801.832       -109957.3       0             -106640.77      51322.821    
+Loop time of 1.15661 on 4 procs for 100 steps with 32000 atoms
+
+Performance: 37.351 ns/day, 0.643 hours/ns, 86.460 timesteps/s
+99.6% CPU use with 4 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.9537     | 0.95639    | 0.95845    |   0.2 | 82.69
+Neigh   | 0.12653    | 0.12781    | 0.12954    |   0.4 | 11.05
+Comm    | 0.047337   | 0.050329   | 0.05462    |   1.2 |  4.35
+Output  | 0.00011085 | 0.0001191  | 0.00012559 |   0.0 |  0.01
+Modify  | 0.010397   | 0.011279   | 0.012423   |   0.8 |  0.98
+Other   |            | 0.01068    |            |       |  0.92
+
+Nlocal:           8000 ave        8008 max        7993 min
+Histogram: 2 0 0 0 0 0 0 0 1 1
+Nghost:        9130.25 ave        9138 max        9122 min
+Histogram: 2 0 0 0 0 0 0 0 0 2
+Neighs:         301946 ave      302392 max      301360 min
+Histogram: 1 0 0 0 1 0 0 0 1 1
+
+Total # of neighbors = 1207784
+Ave neighs/atom = 37.74325
+Neighbor list builds = 13
+Dangerous builds = 0
+Total wall time: 0:00:01

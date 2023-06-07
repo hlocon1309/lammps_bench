@@ -1,0 +1,166 @@
+LAMMPS (23 Jun 2022 - Update 1)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+package gpu 0
+package gpu 4
+
+# 3d Lennard-Jones melt
+variable        x index 5
+variable        y index 5
+variable        z index 10
+variable        t index 1000
+
+variable        xx equal 1*$x
+variable        xx equal 1*5
+variable        yy equal 1*$y
+variable        yy equal 1*5
+variable        zz equal 1*$z
+variable        zz equal 1*10
+
+variable        interval index 50
+
+units           lj
+atom_style      atomic
+
+lattice         fcc 0.8442
+Lattice spacing in x,y,z = 1.6795962 1.6795962 1.6795962
+region          box block 0 ${xx} 0 ${yy} 0 ${zz}
+region          box block 0 5 0 ${yy} 0 ${zz}
+region          box block 0 5 0 5 0 ${zz}
+region          box block 0 5 0 5 0 10
+create_box      1 box
+Created orthogonal box = (0 0 0) to (8.397981 8.397981 16.795962)
+  2 by 2 by 4 MPI processor grid
+create_atoms    1 box
+Created 1000 atoms
+  using lattice units in orthogonal box = (0 0 0) to (8.397981 8.397981 16.795962)
+  create_atoms CPU = 0.000 seconds
+mass            1 1.0
+
+velocity        all create 1.44 87287 loop geom
+
+pair_style      lj/cut 2.5
+pair_coeff      1 1 1.0 1.0 2.5
+
+neighbor        0.3 bin
+neigh_modify    delay 0 every 20 check yes
+
+fix             1 all nve
+
+thermo          ${interval}
+thermo          50
+thermo_style custom step time  temp press pe ke etotal density
+run             $t
+run             1000
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+
+- GPU package (short-range, long-range and three-body potentials):
+
+@Article{Brown11,
+ author = {W. M. Brown, P. Wang, S. J. Plimpton, A. N. Tharrington},
+ title = {Implementing Molecular Dynamics on Hybrid High Performance Computers - Short Range Forces},
+ journal = {Comp.~Phys.~Comm.},
+ year =    2011,
+ volume =  182,
+ pages =   {898--911}
+}
+
+@Article{Brown12,
+ author = {W. M. Brown, A. Kohlmeyer, S. J. Plimpton, A. N. Tharrington},
+ title = {Implementing Molecular Dynamics on Hybrid High Performance Computers - Particle-Particle Particle-Mesh},
+ journal = {Comp.~Phys.~Comm.},
+ year =    2012,
+ volume =  183,
+ pages =   {449--459}
+}
+
+@Article{Brown13,
+ author = {W. M. Brown, Y. Masako},
+ title = {Implementing Molecular Dynamics on Hybrid High Performance Computers – Three-Body Potentials},
+ journal = {Comp.~Phys.~Comm.},
+ year =    2013,
+ volume =  184,
+ pages =   {2785--2793}
+}
+
+@Article{Trung15,
+ author = {T. D. Nguyen, S. J. Plimpton},
+ title = {Accelerating dissipative particle dynamics simulations for soft matter systems},
+ journal = {Comput.~Mater.~Sci.},
+ year =    2015,
+ volume =  100,
+ pages =   {173--180}
+}
+
+@Article{Trung17,
+ author = {T. D. Nguyen},
+ title = {GPU-accelerated Tersoff potentials for massively parallel Molecular Dynamics simulations},
+ journal = {Comp.~Phys.~Comm.},
+ year =    2017,
+ volume =  212,
+ pages =   {113--122}
+}
+
+@Article{Nikolskiy19,
+ author = {V. Nikolskiy, V. Stegailov},
+ title = {GPU acceleration of four-site water models in LAMMPS},
+ journal = {Proceeding of the International Conference on Parallel Computing (ParCo 2019), Prague, Czech Republic},
+ year =    2019
+}
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Per MPI rank memory allocation (min/avg/max) = 2.471 | 2.473 | 2.476 Mbytes
+   Step          Time           Temp          Press          PotEng         KinEng         TotEng        Density    
+         0   0              1.44          -5.0208847     -6.7733682      2.15784       -4.6155282      0.8442       
+        50   0.25           0.71626067     0.50884816    -5.6978232      1.0733166     -4.6245066      0.8442       
+       100   0.5            0.76205524     0.15723751    -5.7664907      1.1419398     -4.6245509      0.8442       
+       150   0.75           0.73936877     0.43121192    -5.7326747      1.1079441     -4.6247306      0.8442       
+       200   1              0.75253939     0.2713628     -5.7531323      1.1276803     -4.6254521      0.8442       
+       250   1.25           0.75514528     0.24251894    -5.7560453      1.1315852     -4.6244601      0.8442       
+       300   1.5            0.75408803     0.28195654    -5.7549944      1.1300009     -4.6249935      0.8442       
+       350   1.75           0.73767064     0.37317119    -5.7307619      1.1053995     -4.6253625      0.8442       
+       400   2              0.73172114     0.42032397    -5.7204773      1.0964841     -4.6239932      0.8442       
+       450   2.25           0.72741754     0.46375071    -5.7146062      1.0900352     -4.624571       0.8442       
+       500   2.5            0.72187046     0.47250949    -5.7067618      1.0817229     -4.6250389      0.8442       
+       550   2.75           0.71880545     0.53735962    -5.7013381      1.07713       -4.6242081      0.8442       
+       600   3              0.7233451      0.50782951    -5.7079749      1.0839326     -4.6240423      0.8442       
+       650   3.25           0.73134672     0.45207215    -5.7196883      1.0959231     -4.6237652      0.8442       
+       700   3.5            0.71598534     0.54509886    -5.698436       1.072904      -4.625532       0.8442       
+       750   3.75           0.70849879     0.65389356    -5.683359       1.0616854     -4.6216736      0.8442       
+       800   4              0.71123667     0.61689842    -5.689687       1.0657881     -4.6238988      0.8442       
+       850   4.25           0.7169017      0.58387827    -5.6994456      1.0742772     -4.6251684      0.8442       
+       900   4.5            0.75490827     0.35511949    -5.7552335      1.13123       -4.6240034      0.8442       
+       950   4.75           0.72870364     0.5357698     -5.7137011      1.0919624     -4.6217387      0.8442       
+      1000   5              0.73542113     0.42562409    -5.7253672      1.1020286     -4.6233386      0.8442       
+Loop time of 0.531232 on 16 procs for 1000 steps with 1000 atoms
+
+Performance: 813204.685 tau/day, 1882.418 timesteps/s
+85.0% CPU use with 16 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.18584    | 0.25505    | 0.29718    |   6.4 | 48.01
+Neigh   | 1.0711e-05 | 1.2098e-05 | 1.4158e-05 |   0.0 |  0.00
+Comm    | 0.22057    | 0.25921    | 0.32348    |   5.9 | 48.79
+Output  | 0.0030424  | 0.0060639  | 0.0080322  |   1.7 |  1.14
+Modify  | 0.00090685 | 0.00095311 | 0.0011886  |   0.0 |  0.18
+Other   |            | 0.009939   |            |       |  1.87
+
+Nlocal:           62.5 ave          69 max          55 min
+Histogram: 1 1 2 1 1 3 1 4 0 2
+Nghost:         746.75 ave         763 max         734 min
+Histogram: 1 4 1 1 2 2 2 2 0 1
+Neighs:              0 ave           0 max           0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 0
+Ave neighs/atom = 0
+Neighbor list builds = 50
+Dangerous builds = 50
+Total wall time: 0:00:05

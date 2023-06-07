@@ -1,0 +1,126 @@
+
+Lmod va a reemplazar "openmpi3/3.1.4" con "openmpi/4.1.4" automáticamente
+
+
+Lmod va a reemplazar "gnu8/8.3.0" con "gnu10/10.1" automáticamente
+
+LAMMPS (23 Jun 2022 - Update 1)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 1.6795962 1.6795962 1.6795962
+Created orthogonal box = (0 0 0) to (134.3677 134.3677 134.3677)
+  2 by 2 by 4 MPI processor grid
+Created 2048000 atoms
+  using lattice units in orthogonal box = (0 0 0) to (134.3677 134.3677 134.3677)
+  create_atoms CPU = 0.010 seconds
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+- GPU package (short-range, long-range and three-body potentials):
+The log file lists these citations in BibTeX format.
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+
+--------------------------------------------------------------------------
+- Using acceleration for lj/cut:
+-  with 15 proc(s) per device.
+-  Horizontal vector operations: ENABLED
+-  Shared memory system: No
+--------------------------------------------------------------------------
+Device 0: Tesla V100-SXM2-32GB, 80 CUs, 27/32 GB, 1.5 GHZ (Mixed Precision)
+--------------------------------------------------------------------------
+
+Initializing Device and compiling on process 0...Done.
+Initializing Device 0 on core 0...Done.
+Initializing Device 0 on core 1...Done.
+Initializing Device 0 on core 2...Done.
+Initializing Device 0 on core 3...Done.
+Initializing Device 0 on core 4...Done.
+Initializing Device 0 on core 5...Done.
+Initializing Device 0 on core 6...Done.
+Initializing Device 0 on core 7...Done.
+Initializing Device 0 on core 8...Done.
+Initializing Device 0 on core 9...Done.
+Initializing Device 0 on core 10...Done.
+Initializing Device 0 on core 11...Done.
+Initializing Device 0 on core 12...Done.
+Initializing Device 0 on core 13...Done.
+Initializing Device 0 on core 14...Done.
+
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.005
+Per MPI rank memory allocation (min/avg/max) = 33.75 | 33.98 | 34.11 Mbytes
+   Step          Time           Temp          Press          PotEng         KinEng         TotEng        Density    
+         0   0              1.44          -5.0196695     -6.7733684      2.1599989     -4.6133694      0.8442       
+        50   0.25           0.74082127     0.32481659    -5.7326042      1.1112314     -4.6213728      0.8442       
+       100   0.5            0.75921979     0.19208803    -5.7611316      1.1388291     -4.6223025      0.8442       
+       150   0.75           0.75974649     0.19393504    -5.7622395      1.1396192     -4.6226203      0.8442       
+       200   1              0.75654973     0.22701078    -5.7574335      1.134824      -4.6226094      0.8442       
+       250   1.25           0.75276509     0.26421631    -5.751709       1.1291471     -4.6225619      0.8442       
+       300   1.5            0.74856877     0.303663      -5.7453481      1.1228526     -4.6224955      0.8442       
+       350   1.75           0.74457869     0.34261167    -5.7392121      1.1168675     -4.6223446      0.8442       
+       400   2              0.73973711     0.38693025    -5.7318185      1.1096051     -4.6222134      0.8442       
+       450   2.25           0.73557383     0.42601011    -5.7254443      1.1033602     -4.6220841      0.8442       
+       500   2.5            0.73111734     0.46453895    -5.7185768      1.0966755     -4.6219013      0.8442       
+       550   2.75           0.72689918     0.50386983    -5.7120722      1.0903482     -4.621724       0.8442       
+       600   3              0.72300382     0.54031853    -5.7060142      1.0845052     -4.621509       0.8442       
+       650   3.25           0.71962376     0.56930641    -5.7007962      1.0794351     -4.6213611      0.8442       
+       700   3.5            0.71676551     0.59563689    -5.6963752      1.0751477     -4.6212275      0.8442       
+       750   3.75           0.71334776     0.62403785    -5.6910829      1.0700211     -4.6210617      0.8442       
+       800   4              0.71110589     0.64473091    -5.6875548      1.0666583     -4.6208965      0.8442       
+       850   4.25           0.70877509     0.66314692    -5.6839497      1.0631621     -4.6207876      0.8442       
+       900   4.5            0.70659629     0.6819195     -5.6805136      1.0598939     -4.6206197      0.8442       
+       950   4.75           0.70537099     0.69112899    -5.6786169      1.058056      -4.620561       0.8442       
+      1000   5              0.70374628     0.70513275    -5.6760438      1.0556189     -4.6204249      0.8442       
+Loop time of 13.385 on 16 procs for 1000 steps with 2048000 atoms
+
+Performance: 32275.025 tau/day, 74.711 timesteps/s
+93.3% CPU use with 16 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 1.5155     | 4.4856     | 6.1699     |  66.4 | 33.51
+Neigh   | 0.028609   | 0.049957   | 0.059683   |   4.3 |  0.37
+Comm    | 4.1016     | 6.1859     | 10.041     |  73.3 | 46.22
+Output  | 0.077926   | 0.13908    | 0.23683    |  10.9 |  1.04
+Modify  | 0.82937    | 1.5794     | 2.0582     |  30.8 | 11.80
+Other   |            | 0.945      |            |       |  7.06
+
+Nlocal:         128000 ave      128204 max      127699 min
+Histogram: 1 1 1 0 2 1 5 1 3 1
+Nghost:        47512.3 ave       47660 max       47349 min
+Histogram: 1 1 1 3 2 1 3 1 1 2
+Neighs:              0 ave           0 max           0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 0
+Ave neighs/atom = 0
+Neighbor list builds = 50
+Dangerous builds = 50
+
+
+---------------------------------------------------------------------
+      Device Time Info (average): 
+---------------------------------------------------------------------
+Data Transfer:   2.6096 s.
+Neighbor copy:   0.0050 s.
+Neighbor build:  0.3866 s.
+Force calc:      0.8112 s.
+Device Overhead: 1.3895 s.
+Average split:   1.0000.
+Lanes / atom:    4.
+Vector width:    32.
+Max Mem / Proc:  110.58 MB.
+CPU Neighbor:    0.2106 s.
+CPU Cast/Pack:   1.8296 s.
+CPU Driver_Time: 0.0187 s.
+CPU Idle_Time:   2.3888 s.
+---------------------------------------------------------------------
+
+Total wall time: 0:00:17
