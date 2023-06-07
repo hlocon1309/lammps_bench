@@ -2,7 +2,7 @@
 ### The experiment in this stage consists on testing standard input file in LAMMPS, with a Lennard-Jones potential structure.
 ### This is a large experiment executed on HPC "cHARISMa", and is divided as follows:
 
-1. [1160N](lj/1160N/) Test executed with:
+1. [1160N](1160N/) Test executed with:
 	* 1 Node
 	* 16 Cores per node
 	* 0 GPUs
@@ -26,7 +26,7 @@
 |   16M    |   [slurm-1415199.out](1160N/slurm-1415199.out)     |
 
 
-2. [1161N](lj/1161N/) Test executed with:
+2. [1161N](1161N/) Test executed with:
 	* 1 Node
 	* 16 Cores per node
 	* 1 GPU
@@ -50,7 +50,7 @@
 |   16M    |   [slurm-1415226.out](1161N/slurm-1415228.out)     |
 
 
-3. [1162N](lj/1162N/) Test executed with:
+3. [1162N](1162N/) Test executed with:
 	* 1 Node
 	* 16 Cores per node
 	* 2 GPUs
@@ -74,7 +74,7 @@
 |   16M    |   [slurm-1415630.out](1162N/slurm-1415630.out)     |
 
 
-4. [1164N](lj/1164N/) Test executed with:
+4. [1164N](1164N/) Test executed with:
 	* 1 Node
 	* 16 Cores per node
 	* 4 GPUs
@@ -98,7 +98,7 @@
 |   16M    |   [slurm-1415664.out](1164N/slurm-1415664.out)     |
 
 
-5. [2160N](lj/2160N/) Test executed with:
+5. [2160N](2160N/) Test executed with:
 	* 2 Nodes
 	* 16 Cores
 	* 0 GPUs
@@ -122,7 +122,7 @@
 |   16M    |   [slurm-1415112.out](2160N/slurm-1415112.out)     |
 
 
-6. [2161N](lj/2161N/) Test executed with:
+6. [2161N](2161N/) Test executed with:
 	* 2 Nodes
 	* 16 Cores
 	* 1 GPU
@@ -146,7 +146,7 @@
 |   16M    |   [slurm-1416339.out](2161N/slurm-1416339.out)     |
 
 
-7. [2162N](lj/2162N/) Test executed with:
+7. [2162N](2162N/) Test executed with:
 	* 2 Nodes
 	* 16 Cores
 	* 2 GPUs 
@@ -170,7 +170,7 @@
 |   16M    |   [slurm-1416356.out](2162N/slurm-1416356.out)     |
 
 
-8. [4160N](lj/4160N/) Test executed with:
+8. [4160N](4160N/) Test executed with:
 	* 4 Nodes
 	* 16 Cores
 	* 0 GPUs
@@ -194,7 +194,7 @@
 |   16M    |   [slurm-1414739.out](4160N/slurm-1414739.out)     |
 
 
-9. [4161N](lj/4161N/) Test executed with:
+9. [4161N](4161N/) Test executed with:
 	* 4 Nodes
 	* 16 Cores
 	* 1 GPU
