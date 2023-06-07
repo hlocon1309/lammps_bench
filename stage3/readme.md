@@ -1,8 +1,12 @@
-## Description
+# Description
 ### The following graphics show the performance of an atomic simulation based on Lennard-Jones potential, using LAMMPS package.  
 ### This benchmark takes as reference the document:
 
 [LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales](https://www.sciencedirect.com/science/article/pii/S0010465521002836)
+
+### A complete reference of test (slurm files) can be found
+
+[Here](lj/)
 
 ### "cHARISMa" HPC cluster characteristics are listed in the next table:
 
@@ -13,12 +17,14 @@
 |   GPU         |   NVIDIA Tesla V100 32 GB |
 |   RAM         |   1536 GB |
 
+---
 
 ### For the first graphic, we compare performace with cpu only, and one cpu with one gpu.
 
+
 ![Fig_1](fig_1.jpg)
 
-|   Atoms   |   Matoms-steps/s CPU  |   Matoms-steps/s CPU  |
+|   Atoms   |   Matoms-steps/s CPU  |   Matoms-steps/s GPU  |
 |   ----    |   ------  |   ------  |
 |   1000    |8.39729271282938   |   0.590622102260311   |
 |   2000    |12.5598949992778   |   1.21785620771755    |
