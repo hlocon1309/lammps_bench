@@ -47,7 +47,7 @@
 |   2M    |   [slurm-1415229.out](1161N/slurm-1415229.out)     |
 |   4M    |   [slurm-1415228.out](1161N/slurm-1415228.out)     |
 |   8M    |   [slurm-1415227.out](1161N/slurm-1415227.out)     |
-|   16M    |   [slurm-1415226.out](1161N/slurm-1415228.out)     |
+|   16M    |   [slurm-1415226.out](1161N/slurm-1415226.out)     |
 
 
 3. [1162N](1162N/) Test executed with:
