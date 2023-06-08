@@ -19,10 +19,12 @@
 
 ---
 
-### For the first graphic, we compare performace with cpu only, and one cpu with one gpu.
+### For the first graphic, we compare performace with cpu only, and one cpu with one gpu with 16 MPI tasks/node.
 
 
 ![Fig_1](fig_1.jpg)
+
+### Table with data shown on previous graphic.
 
 |   Atoms   |   Matoms-steps/s CPU  |   Matoms-steps/s GPU  |
 |   ----    |   ------  |   ------  |
@@ -41,3 +43,31 @@
 |   4096000 |18.3676306384276   |   157.880333183008    |
 |   8192000 |19.4168774191102   |   154.953421289072    |
 |   16384000    |19.6448248284495   |   145.011683070169    |
+
+---
+
+### Second graph shows strong-scaling with 2M(million) and 16M atoms, on one GPU/node.
+
+![Fig_2](fig_2.jpg)
+
+### Table with data shown on previous graphic.
+
+|   Nodes   |   2M  |   16M |
+|   1   |   150.198382140474    |   145.011683070169    |
+|   2   |   76.5035487485992    |   73.1187018574221 |
+|   4   |   42.8616873440823    |   40.0199318019717 |
+
+---
+
+### The third graph shows weak-scaling with 512K(thousand) and 4M atoms, on one GPU/node.
+
+![Fig_3](fig_3.jpg)
+
+### Table with data shown on previous graphic.
+
+|   Nodes   |   2M  |   16M |
+|   1   |   124.330388581031    |   157.880333183008    |
+|   2   |   65.047260900498    |   78.7029386785746 |
+|   4   |   37.3525231921233   |   44.2410966953111 |
+
+
